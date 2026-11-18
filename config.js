@@ -1,38 +1,38 @@
 /* ============================================================
-   WEDDING DETAILS — edit everything here, nowhere else.
+   TO'Y MA'LUMOTLARI — hammasi shu yerda o'zgartiriladi.
    ============================================================ */
 window.WEDDING = {
-  groom: "Groom's Name",
-  bride: "Bride's Name",
-  monogram: "G & B",
+  groom: "Murodov Shamshod",
+  bride: "Qodirova Malika",
+  monogram: "S & M",
 
-  // Date & time of the wedding (ISO format with time zone)
-  dateISO: "2027-02-14T18:00:00+05:00",
+  // To'y sanasi va vaqti (ISO format, vaqt mintaqasi bilan)
+  dateISO: "2026-12-12T18:00:00+05:00",
 
-  // How the date is written on the page
-  dateShort: "14 · 02 · 2027",
-  dateLong: "Saturday, 14 February 2027",
-  day: "14",
-  month: "February",
-  year: "2027",
-  city: "Tashkent",
+  // Sana sahifada qanday yoziladi
+  dateShort: "12 · 12 · 2026",
+  dateLong: "2026-yil 12-dekabr, shanba",
+  day: "12",
+  month: "Dekabr",
+  year: "2026",
+  city: "Rohat, O'zbekiston",
 
-  // Venue
-  venue: "Grand Ballroom",
-  address: "Amir Temur Avenue 1, Tashkent",
-  mapQuery: "Grand Ballroom, Tashkent",
+  // Manzil
+  venue: "Rohat to'yxonasi",
+  address: "Rohat, O'zbekiston",
+  mapQuery: "Rohat, O'zbekiston",
 
-  // RSVP contacts (international format, digits only for WhatsApp)
-  phone: "+998 90 000 00 00",
-  whatsapp: "998900000000",
-  rsvpBy: "1 February 2027",
+  // Tasdiqlash uchun aloqa (xalqaro format, WhatsApp uchun faqat raqamlar)
+  phone: "+998 88 888 28 38",
+  whatsapp: "99888882838",
+  rsvpBy: "5-dekabr 2026",
 
-  // Order of the evening
+  // Oqshom dasturi
   schedule: [
-    { time: "18:00", title: "Guest arrival", text: "Welcome drinks and photographs in the courtyard" },
-    { time: "18:30", title: "Bride's entrance", text: "The moment we have all been waiting for" },
-    { time: "19:00", title: "Dinner", text: "A celebration dinner with family and friends" },
-    { time: "20:00", title: "Cake & first dance", text: "Cutting the cake and the first dance as husband and wife" },
-    { time: "21:00", title: "Dancing", text: "Music, dancing and celebration until late" }
+    { time: "18:00", title: "Mehmonlar kelishi", text: "Salqin ichimliklar va suratga tushish" },
+    { time: "18:30", title: "Kelinning kirib kelishi", text: "Biz kutgan eng go'zal lahza" },
+    { time: "19:00", title: "Ziyofat", text: "Oila va do'stlar davrasida bayram dasturxoni" },
+    { time: "20:00", title: "Tort va birinchi raqs", text: "Tort kesish va birinchi raqs" },
+    { time: "21:00", title: "Raqs va bazm", text: "Musiqa, raqs va quvonch" }
   ]
 };

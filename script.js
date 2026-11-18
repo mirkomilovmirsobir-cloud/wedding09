@@ -35,14 +35,13 @@
 
   var waLink = $("[data-whatsapp]");
   if (waLink && cfg.whatsapp) {
-    var msg = "Assalamu alaikum! I would love to confirm my attendance at the wedding of " +
-      cfg.groom + " & " + cfg.bride + ".";
-    waLink.href = "https://wa.me/" + String(cfg.whatsapp).replace(/\D/g, "") + "?text=" + encodeURIComponent(msg);
+    var msg = "Assalomu alaykum! Men " + cfg.groom + " va " + cfg.bride + " to'yiga borishimni tasdiqlamoqchiman.";
+    waLink.href = "https://wa.me/" + String(cfg.whatsapp).replace(/\\D/g, "") + "?text=" + encodeURIComponent(msg);
   }
 
   var callLink = $("[data-call]");
   if (callLink && cfg.phone) {
-    callLink.href = "tel:" + String(cfg.phone).replace(/[^\d+]/g, "");
+    callLink.href = "tel:" + String(cfg.phone).replace(/[^\\d+]/g, "");
   }
 
   /* ---------------- Schedule ---------------- */
@@ -108,7 +107,7 @@
       if (diff <= 0) {
         window.clearInterval(timer);
         Object.keys(cells).forEach(function (k) { if (cells[k]) cells[k].textContent = "00"; });
-        if (note) note.textContent = "Today is the day — see you there";
+        if (note) note.textContent = "Bugun to'y kuni — sizni kutamiz";
         return;
       }
       var s = Math.floor(diff / 1000);
@@ -271,7 +270,7 @@
 
       canvas.tabIndex = 0;
       canvas.setAttribute("role", "button");
-      canvas.setAttribute("aria-label", "Scratch to reveal " + (card.dataset.label || "the date"));
+      canvas.setAttribute("aria-label", "Ishqalab ko'ring: " + (card.dataset.label || "sana"));
     });
 
     function paintAll() {
