@@ -3,8 +3,8 @@
    ============================================================ */
 window.WEDDING = {
   groom: "Murodov Shamshod",
-  bride: "Qodirova Malika",
-  monogram: "S & M",
+  bride: "Qodirova Sevinch",
+  monogram: "S & S",
 
   // To'y sanasi va vaqti (ISO format, vaqt mintaqasi bilan)
   dateISO: "2026-12-12T18:00:00+05:00",
